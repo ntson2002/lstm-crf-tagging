@@ -1,0 +1,50 @@
+<Story>
+<Sentence id="1">
+0	((	SSF
+1	((	NP
+<ENAMEX TYPE="PERSON">
+1.1	मुगल	JJ
+1.2	राजवंश	NN
+</ENAMEX>
+1.3	के	PSP
+	))
+2	((	NP
+2.1	पतन	NN
+	))
+3	((	CCP
+3.1	और	CC
+	))
+4	((	NP
+<ENAMEX TYPE="PERSON">
+4.1	ब्रिटिश	JJ
+4.2	साम्राज्य	NN
+</ENAMEX>
+4.3	के	PSP
+	))
+5	((	NP
+5.1	शासन	NN
+5.2	के	PSP
+	))
+6	((	NP
+6.1	अभ्युदय	NN
+6.2	के	PSP
+6.3	बीच	NST
+6.4	की	PSP
+	))
+7	((	NP
+7.1	अवधि	NN
+7.2	में	PSP
+7.3	,	SYM
+	))
+8	((	NP
+<ENAMEX TYPE="ENTERTAINMENT">
+8.1	पोलो	NNP
+</ENAMEX>
+	))
+9	((	NP
+<ENAMEX TYPE="LOCATION">
+9.1	भारत	NNP
+</ENAMEX>
+9.2	की	PSP
+	))
+10	((	NP
