@@ -1,5 +1,0 @@
-corpus/
-.idea/
-__pycache__/
-embeddings/__pycache__/
-*.pyc
