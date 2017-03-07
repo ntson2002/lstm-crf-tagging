@@ -1,5 +1,6 @@
 # multi-lstm  (2-layer )
 
+## JPC-RRE data set 
 ```sh
 FOLDER=/home/s1520203/Bitbucket/lstm-crf-tagging/experiments/jp-rre/data/new/new-2layer
 PROGRAM=/home/s1520203/Bitbucket/lstm-crf-tagging/multi-lstm
@@ -25,7 +26,13 @@ PREEMB=/home/s1520203/Bitbucket/lstm-crf-tagging/experiments/jp-rre/data/pretrai
 
 
 ###########
-FOLD=0
-BESTFILE=best.$FOLD.txt
-python $PROGRAM/train.py --char_dim $CHARDIM --word_lstm_dim $WORDLSTMDIM --train $FOLDER/fold.$FOLD.train.conll --dev $FOLDER/fold.$FOLD.dev.conll --test $FOLDER/fold.$FOLD.test.conll --best_outpath $BESTFILE --reload $RELOAD --lr_method $TYPE --word_dim $WORDDIM --tag_scheme $TAGSCHEME --cap_dim $CAPDIM --zeros $ZERO --lower $LOWER --reload $RELOAD --external_features $FEATURE --epoch $EPOCH --crf $CRF --pre_emb $PREEMB --prefix=$FOLD --tag_columns_string $GOLDCOLUMNS
+for i in {0..9}
+do
+    FOLD=$i
+    BESTFILE=best.$FOLD.txt
+    python $PROGRAM/train.py --char_dim $CHARDIM --word_lstm_dim $WORDLSTMDIM --train $FOLDER/fold.$FOLD.train.conll --dev $FOLDER/fold.$FOLD.dev.conll --test $FOLDER/fold.$FOLD.test.conll --best_outpath $BESTFILE --reload $RELOAD --lr_method $TYPE --word_dim $WORDDIM --tag_scheme $TAGSCHEME --cap_dim $CAPDIM --zeros $ZERO --lower $LOWER --reload $RELOAD --external_features $FEATURE --epoch $EPOCH --crf $CRF --pre_emb $PREEMB --prefix=$FOLD --tag_columns_string $GOLDCOLUMNS
+
+done 
+
+
 ```
