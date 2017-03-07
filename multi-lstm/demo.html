@@ -1,0 +1,231 @@
+<html>
+	<head>
+		<title>Demo compression</title>
+		<style type="text/css">
+			.location
+			{
+			    border: 1px solid #8b388b;
+			    color: yellow;
+			    background-color: #000000;
+			}
+
+			.location:after {
+			    content: "LOC";
+			    font-size: 50%;
+			    color: blue;
+			    font-style: bold;
+			}
+
+			.person
+			{
+			    border: 1px solid #8b388b;
+			    color: #0000ff;
+			    background-color: #b3ffb3;
+
+			}
+
+			.person:after {
+			    content: "PER";
+			    font-size: 50%;
+			    color: blue;
+			    font-style: bold;
+			}
+
+			.organization
+			{
+			    border: 1px solid #8b388b;
+			    color: #4d004d;
+			    background-color: #ffffcc;
+
+			}
+
+			.organization:after {
+			    content: "ORG";
+			    font-size: 50%;
+			    color: blue;
+			    font-style: bold;
+			}
+
+			.misc
+			{
+			    border: 1px solid #8b388b;
+			    color: pink;
+			    background-color: #0000ee;
+
+			}
+
+			.misc:after {
+			    content: "MISC";
+			    font-size: 50%;
+			    color: yellow;
+			    font-style: bold;
+			}
+
+
+			.o
+			{
+			    color: black;
+			    background-color: #ffe6ff;
+			    cursor:pointer
+			}
+
+			.i
+			{
+			    font-style: italic
+			}
+
+			.small-icon
+			{
+			    width: 10px;
+			    height: 10px;
+			    margin: 0px;
+			}
+		</style>
+
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js">
+		</script>
+		<script>
+			function display(json_a, n)
+			{
+
+			    var css_list = {
+			        "B-LOC": "location",
+			        "B-MISC": "misc",
+			        "B-ORG": "organization",
+			        "B-PER": "person"
+			    };
+			    var tag_list = ["B-LOC", "B-MISC", "B-ORG", "B-PER"];
+			    var tag_list_end = ["I-LOC", "I-MISC", "I-ORG", "I-PER"];
+
+			    var tokens = "";
+			    var out = "";
+			    if (json_a["sentences"] == null)
+			        return "";
+			    for (var i = 0; i < json_a["sentences"].length; i++)
+			    {
+			        var sentence = json_a["sentences"][i];
+			        var tokens = "";
+			        for (var j = 0; j < sentence.length; j++)
+			        {
+			            var id = "w-" + i + "-" + j;
+			            var tag = sentence[j][n];
+			            var word = sentence[j][0];
+			            if (tag_list.indexOf(tag) >= 0)
+			            {
+			                var css = css_list[tag];
+			                tokens = id;
+			                if (j + 1 < sentence.length
+			                        && tag_list_end.indexOf(sentence[j + 1][1]) >= 0)
+			                {
+
+			                    out = out + " <span class='" + css + "'><span id='" + id + "' class='i'>" + word + "</span>";
+			                }
+			                else
+			                {
+			                    out = out + " <span class='" + css + "'><span id='" + id + "' class='i'>" + word + "</span></span> <sub><button class='nerRemove' data='" + tokens + "' style='cursor:pointer'><img class='small-icon' src='css/images/delete.png' /></button></sub>";
+
+			                }
+			            }
+			            else
+			            {
+			                if (tag_list_end.indexOf(tag) >= 0)
+			                {
+			                    tokens = tokens + ":" + id;
+			                    if (j + 1 < sentence.length)
+			                    {
+
+			                        if (tag_list_end.indexOf(sentence[j + 1][1]) < 0)
+			                        {
+			                            out = out + " <span id='" + id + "' class='i'>" + word + "</span></span> <sub><button class='nerRemove' data='" + tokens + "' style='cursor:pointer'><img class='small-icon' src='css/images/delete.png' /></button></sub>";
+			                        }
+			                        else
+			                        {
+			                            out = out + " <span id='" + id + "' class='i'>" + word + "</span> ";
+			                        }
+			                    }
+			                    else
+			                    {
+			                        out = out + " <span id='" + id + "' class='i'>" + word + "</span></span> <sub><button class='nerRemove' data='" + tokens + "' style='cursor:pointer'><img class='small-icon' src='css/images/delete.png' /></button></sub>";
+			                    }
+
+			                }
+			                else
+			                {
+			                    out = out + " <span id='" + id + "' class='o'>" + word + "</span> ";
+			                }
+
+			            }
+			        }
+			        out = out + "<br/>";
+			    }
+
+			    return "<div class='box'>" + out + "</div>";
+			}
+
+			function setStyle(b, e, style)
+			{
+			    if (b && e)
+			        b.nextUntil(e).css(style);
+
+			    if (b)
+			        b.css(style);
+			    if (e)
+			        e.css(style);
+			}
+		</script>
+
+		<script>
+            $(document).ready(function() {
+             	var doTagging = function ()
+             	{
+					// var url = "http://uv.jaist.ac.jp:8081/api/compress/Barack%20Obama%20has%20called%20for%20the%20release%20of%20an%20American%20pastor%20imprisoned%20in%20Iran%20.";
+					// var url = "http://uv.jaist.ac.jp:8081/api/compress/" + $("#txtText").val();
+//					 var url = "/api/compress/text=" + $("#txtText").val();
+					var url = "/api/tagging";
+					alert(url);
+                    $.ajax(
+                    		{
+								url: url,
+								type: "POST",
+								data: { name: "John", time: "2pm", text: $("#txtText").val()},
+								success: function(result)
+								{
+									// result_text = result["result"];
+//									alert(result_text);
+									$("#divResult_Out").html(display(result, 1));
+									$("#divResult").show();
+								}
+                	});
+             	};
+
+                $("#btnTagging").click(doTagging);
+
+//                $(window).keydown(function(e) {
+//					// alert("");
+//					switch (e.keyCode) {
+//	                    	case 13:
+//	                    		doTagging();
+//	                        	e.preventDefault(); // avoid browser scrolling due to pressed key
+//	                    	return;
+//                	}
+//            	});
+			});
+        </script>
+
+	</head>
+	<body>
+
+		<h1>API: api/tagging/text=[sentence]</h1>
+		Orginial text: 	<textarea id="txtText"></textarea>
+						<input id="btnTagging" type='button' value='Tag'/>
+		<hr/>
+		<div id="divResult" style="display:none">
+
+			<div id="divResult_In"></div>
+			<h1>Response:</h1>
+
+		</div>
+		<div id="divResult_Out"></div>
+	</body>
+</html>

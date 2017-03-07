@@ -1,0 +1,193 @@
+Starting epoch 119...
+50, cost average: 0.115601
+100, cost average: 0.043413
+150, cost average: 0.034658
+200, cost average: 0.056458
+##### EVALUATE on DEV
+==================================================
+{'column': 3, 'layer': 0, 'tag_to_id': {u'B-R': 3, u'I-R': 0, u'I-E': 1, u'O': 2, u'B-E': 4}, 'dico_tag': {u'B-R': 1781, u'I-R': 24372, u'I-E': 17276, u'O': 12265, u'B-E': 1281}, 'id_to_tag': {0: u'I-R', 1: u'I-E', 2: u'O', 3: u'B-R', 4: u'B-E'}}
+EVALUATION OF LAYER 0
+./evaluation/temp/eval.1671387.scores
+processed 7155 tokens with 378 phrases; found: 379 phrases; correct: 377.
+accuracy:  99.97%; precision:  99.47%; recall:  99.74%; FB1:  99.60
+                E: precision: 100.00%; recall: 100.00%; FB1: 100.00  167
+                R: precision:  99.06%; recall:  99.53%; FB1:  99.29  212
+==================================================
+==================================================
+{'column': 4, 'layer': 1, 'tag_to_id': {u'B-R': 4, u'I-R': 2, u'I-E': 1, u'O': 0, u'B-E': 3}, 'dico_tag': {u'B-R': 160, u'I-R': 2569, u'I-E': 5853, u'O': 47701, u'B-E': 692}, 'id_to_tag': {0: u'O', 1: u'I-E', 2: u'I-R', 3: u'B-E', 4: u'B-R'}}
+EVALUATION OF LAYER 1
+./evaluation/temp/eval.1137766.scores
+processed 7155 tokens with 107 phrases; found: 128 phrases; correct: 85.
+accuracy:  98.62%; precision:  66.41%; recall:  79.44%; FB1:  72.34
+                E: precision:  71.88%; recall:  81.18%; FB1:  76.24  96
+                R: precision:  50.00%; recall:  72.73%; FB1:  59.26  32
+==================================================
+ID	NE	Total	O	I-E	I-R	B-E	B-R	Predict	Correct	Recall	Precision	F1
+0	O	3095	3095	0	0	0	0	3095	3095	100.000	100.000	100.000
+1	I-E	2248	0	2248	0	0	0	2248	2248	100.000	100.000	100.000
+2	I-R	1447	0	0	1445	2	0	1445	1445	99.862	100.000	99.931
+3	B-E	209	0	0	0	209	0	211	209	100.000	99.052	99.524
+4	B-R	156	0	0	0	0	156	156	156	100.000	100.000	100.000
+7153/7155 (99.97205%)
+##### EVALUATE on TEST
+==================================================
+{'column': 3, 'layer': 0, 'tag_to_id': {u'B-R': 3, u'I-R': 0, u'I-E': 1, u'O': 2, u'B-E': 4}, 'dico_tag': {u'B-R': 1781, u'I-R': 24372, u'I-E': 17276, u'O': 12265, u'B-E': 1281}, 'id_to_tag': {0: u'I-R', 1: u'I-E', 2: u'O', 3: u'B-R', 4: u'B-E'}}
+EVALUATION OF LAYER 0
+./evaluation/temp/eval.1994909.scores
+processed 7107 tokens with 405 phrases; found: 404 phrases; correct: 399.
+accuracy:  99.93%; precision:  98.76%; recall:  98.52%; FB1:  98.64
+                E: precision:  99.40%; recall:  99.40%; FB1:  99.40  167
+                R: precision:  98.31%; recall:  97.90%; FB1:  98.11  237
+==================================================
+==================================================
+{'column': 4, 'layer': 1, 'tag_to_id': {u'B-R': 4, u'I-R': 2, u'I-E': 1, u'O': 0, u'B-E': 3}, 'dico_tag': {u'B-R': 160, u'I-R': 2569, u'I-E': 5853, u'O': 47701, u'B-E': 692}, 'id_to_tag': {0: u'O', 1: u'I-E', 2: u'I-R', 3: u'B-E', 4: u'B-R'}}
+EVALUATION OF LAYER 1
+./evaluation/temp/eval.1384165.scores
+processed 7107 tokens with 118 phrases; found: 131 phrases; correct: 85.
+accuracy:  97.69%; precision:  64.89%; recall:  72.03%; FB1:  68.27
+                E: precision:  68.22%; recall:  75.26%; FB1:  71.57  107
+                R: precision:  50.00%; recall:  57.14%; FB1:  53.33  24
+==================================================
+ID	NE	Total	O	I-E	I-R	B-E	B-R	Predict	Correct	Recall	Precision	F1
+0	O	3011	3011	0	0	0	0	3012	3011	100.000	99.967	99.983
+1	I-E	1932	0	1932	0	0	0	1932	1932	100.000	100.000	100.000
+2	I-R	1769	0	0	1765	3	1	1765	1765	99.774	100.000	99.887
+3	B-E	235	1	0	0	234	0	237	234	99.574	98.734	99.153
+4	B-R	160	0	0	0	0	160	161	160	100.000	99.379	99.688
+7102/7107 (99.92965%)
+Score on dev: 99.60000 (IOB: 99.97205)
+Score on test: 98.64000 (IOB: 99.92965)
+250, cost average: 0.060255
+300, cost average: 0.053232
+350, cost average: 0.062999
+400, cost average: 0.053452
+450, cost average: 0.037595
+500, cost average: 0.048615
+550, cost average: 0.030813
+600, cost average: 0.048393
+650, cost average: 0.097974
+700, cost average: 0.039724
+750, cost average: 0.100912
+800, cost average: 0.051532
+850, cost average: 0.042587
+900, cost average: 0.043767
+950, cost average: 0.073300
+1000, cost average: 0.036455
+1050, cost average: 0.094299
+1100, cost average: 0.047510
+1150, cost average: 0.062797
+1200, cost average: 0.033502
+##### EVALUATE on DEV
+==================================================
+{'column': 3, 'layer': 0, 'tag_to_id': {u'B-R': 3, u'I-R': 0, u'I-E': 1, u'O': 2, u'B-E': 4}, 'dico_tag': {u'B-R': 1781, u'I-R': 24372, u'I-E': 17276, u'O': 12265, u'B-E': 1281}, 'id_to_tag': {0: u'I-R', 1: u'I-E', 2: u'O', 3: u'B-R', 4: u'B-E'}}
+EVALUATION OF LAYER 0
+./evaluation/temp/eval.1559366.scores
+processed 7155 tokens with 378 phrases; found: 379 phrases; correct: 377.
+accuracy:  99.97%; precision:  99.47%; recall:  99.74%; FB1:  99.60
+                E: precision: 100.00%; recall: 100.00%; FB1: 100.00  167
+                R: precision:  99.06%; recall:  99.53%; FB1:  99.29  212
+==================================================
+==================================================
+{'column': 4, 'layer': 1, 'tag_to_id': {u'B-R': 4, u'I-R': 2, u'I-E': 1, u'O': 0, u'B-E': 3}, 'dico_tag': {u'B-R': 160, u'I-R': 2569, u'I-E': 5853, u'O': 47701, u'B-E': 692}, 'id_to_tag': {0: u'O', 1: u'I-E', 2: u'I-R', 3: u'B-E', 4: u'B-R'}}
+EVALUATION OF LAYER 1
+./evaluation/temp/eval.1421838.scores
+processed 7155 tokens with 107 phrases; found: 125 phrases; correct: 83.
+accuracy:  98.63%; precision:  66.40%; recall:  77.57%; FB1:  71.55
+                E: precision:  69.79%; recall:  78.82%; FB1:  74.03  96
+                R: precision:  55.17%; recall:  72.73%; FB1:  62.75  29
+==================================================
+ID	NE	Total	O	I-E	I-R	B-E	B-R	Predict	Correct	Recall	Precision	F1
+0	O	3095	3095	0	0	0	0	3095	3095	100.000	100.000	100.000
+1	I-E	2248	0	2248	0	0	0	2248	2248	100.000	100.000	100.000
+2	I-R	1447	0	0	1445	2	0	1445	1445	99.862	100.000	99.931
+3	B-E	209	0	0	0	209	0	211	209	100.000	99.052	99.524
+4	B-R	156	0	0	0	0	156	156	156	100.000	100.000	100.000
+7153/7155 (99.97205%)
+##### EVALUATE on TEST
+==================================================
+{'column': 3, 'layer': 0, 'tag_to_id': {u'B-R': 3, u'I-R': 0, u'I-E': 1, u'O': 2, u'B-E': 4}, 'dico_tag': {u'B-R': 1781, u'I-R': 24372, u'I-E': 17276, u'O': 12265, u'B-E': 1281}, 'id_to_tag': {0: u'I-R', 1: u'I-E', 2: u'O', 3: u'B-R', 4: u'B-E'}}
+EVALUATION OF LAYER 0
+./evaluation/temp/eval.1003934.scores
+processed 7107 tokens with 405 phrases; found: 404 phrases; correct: 399.
+accuracy:  99.93%; precision:  98.76%; recall:  98.52%; FB1:  98.64
+                E: precision:  99.40%; recall:  99.40%; FB1:  99.40  167
+                R: precision:  98.31%; recall:  97.90%; FB1:  98.11  237
+==================================================
+==================================================
+{'column': 4, 'layer': 1, 'tag_to_id': {u'B-R': 4, u'I-R': 2, u'I-E': 1, u'O': 0, u'B-E': 3}, 'dico_tag': {u'B-R': 160, u'I-R': 2569, u'I-E': 5853, u'O': 47701, u'B-E': 692}, 'id_to_tag': {0: u'O', 1: u'I-E', 2: u'I-R', 3: u'B-E', 4: u'B-R'}}
+EVALUATION OF LAYER 1
+./evaluation/temp/eval.1549923.scores
+processed 7107 tokens with 118 phrases; found: 130 phrases; correct: 82.
+accuracy:  98.16%; precision:  63.08%; recall:  69.49%; FB1:  66.13
+                E: precision:  64.81%; recall:  72.16%; FB1:  68.29  108
+                R: precision:  54.55%; recall:  57.14%; FB1:  55.81  22
+==================================================
+ID	NE	Total	O	I-E	I-R	B-E	B-R	Predict	Correct	Recall	Precision	F1
+0	O	3011	3011	0	0	0	0	3012	3011	100.000	99.967	99.983
+1	I-E	1932	0	1932	0	0	0	1932	1932	100.000	100.000	100.000
+2	I-R	1769	0	0	1765	3	1	1765	1765	99.774	100.000	99.887
+3	B-E	235	1	0	0	234	0	237	234	99.574	98.734	99.153
+4	B-R	160	0	0	0	0	160	161	160	100.000	99.379	99.688
+7102/7107 (99.92965%)
+Score on dev: 99.60000 (IOB: 99.97205)
+Score on test: 98.64000 (IOB: 99.92965)
+1250, cost average: 0.098062
+1300, cost average: 0.044048
+1350, cost average: 0.051394
+##### EVALUATE on DEV
+==================================================
+{'column': 3, 'layer': 0, 'tag_to_id': {u'B-R': 3, u'I-R': 0, u'I-E': 1, u'O': 2, u'B-E': 4}, 'dico_tag': {u'B-R': 1781, u'I-R': 24372, u'I-E': 17276, u'O': 12265, u'B-E': 1281}, 'id_to_tag': {0: u'I-R', 1: u'I-E', 2: u'O', 3: u'B-R', 4: u'B-E'}}
+EVALUATION OF LAYER 0
+./evaluation/temp/eval.1588991.scores
+processed 7155 tokens with 378 phrases; found: 379 phrases; correct: 377.
+accuracy:  99.97%; precision:  99.47%; recall:  99.74%; FB1:  99.60
+                E: precision: 100.00%; recall: 100.00%; FB1: 100.00  167
+                R: precision:  99.06%; recall:  99.53%; FB1:  99.29  212
+==================================================
+==================================================
+{'column': 4, 'layer': 1, 'tag_to_id': {u'B-R': 4, u'I-R': 2, u'I-E': 1, u'O': 0, u'B-E': 3}, 'dico_tag': {u'B-R': 160, u'I-R': 2569, u'I-E': 5853, u'O': 47701, u'B-E': 692}, 'id_to_tag': {0: u'O', 1: u'I-E', 2: u'I-R', 3: u'B-E', 4: u'B-R'}}
+EVALUATION OF LAYER 1
+./evaluation/temp/eval.1339383.scores
+processed 7155 tokens with 107 phrases; found: 124 phrases; correct: 82.
+accuracy:  98.63%; precision:  66.13%; recall:  76.64%; FB1:  71.00
+                E: precision:  70.21%; recall:  77.65%; FB1:  73.74  94
+                R: precision:  53.33%; recall:  72.73%; FB1:  61.54  30
+==================================================
+ID	NE	Total	O	I-E	I-R	B-E	B-R	Predict	Correct	Recall	Precision	F1
+0	O	3095	3095	0	0	0	0	3095	3095	100.000	100.000	100.000
+1	I-E	2248	0	2248	0	0	0	2248	2248	100.000	100.000	100.000
+2	I-R	1447	0	0	1445	2	0	1445	1445	99.862	100.000	99.931
+3	B-E	209	0	0	0	209	0	211	209	100.000	99.052	99.524
+4	B-R	156	0	0	0	0	156	156	156	100.000	100.000	100.000
+7153/7155 (99.97205%)
+##### EVALUATE on TEST
+==================================================
+{'column': 3, 'layer': 0, 'tag_to_id': {u'B-R': 3, u'I-R': 0, u'I-E': 1, u'O': 2, u'B-E': 4}, 'dico_tag': {u'B-R': 1781, u'I-R': 24372, u'I-E': 17276, u'O': 12265, u'B-E': 1281}, 'id_to_tag': {0: u'I-R', 1: u'I-E', 2: u'O', 3: u'B-R', 4: u'B-E'}}
+EVALUATION OF LAYER 0
+./evaluation/temp/eval.1668650.scores
+processed 7107 tokens with 405 phrases; found: 404 phrases; correct: 399.
+accuracy:  99.93%; precision:  98.76%; recall:  98.52%; FB1:  98.64
+                E: precision:  99.40%; recall:  99.40%; FB1:  99.40  167
+                R: precision:  98.31%; recall:  97.90%; FB1:  98.11  237
+==================================================
+==================================================
+{'column': 4, 'layer': 1, 'tag_to_id': {u'B-R': 4, u'I-R': 2, u'I-E': 1, u'O': 0, u'B-E': 3}, 'dico_tag': {u'B-R': 160, u'I-R': 2569, u'I-E': 5853, u'O': 47701, u'B-E': 692}, 'id_to_tag': {0: u'O', 1: u'I-E', 2: u'I-R', 3: u'B-E', 4: u'B-R'}}
+EVALUATION OF LAYER 1
+./evaluation/temp/eval.1845593.scores
+processed 7107 tokens with 118 phrases; found: 131 phrases; correct: 84.
+accuracy:  98.24%; precision:  64.12%; recall:  71.19%; FB1:  67.47
+                E: precision:  67.29%; recall:  74.23%; FB1:  70.59  107
+                R: precision:  50.00%; recall:  57.14%; FB1:  53.33  24
+==================================================
+ID	NE	Total	O	I-E	I-R	B-E	B-R	Predict	Correct	Recall	Precision	F1
+0	O	3011	3011	0	0	0	0	3012	3011	100.000	99.967	99.983
+1	I-E	1932	0	1932	0	0	0	1932	1932	100.000	100.000	100.000
+2	I-R	1769	0	0	1765	3	1	1765	1765	99.774	100.000	99.887
+3	B-E	235	1	0	0	234	0	237	234	99.574	98.734	99.153
+4	B-R	160	0	0	0	0	160	161	160	100.000	99.379	99.688
+7102/7107 (99.92965%)
+Score on dev: 99.60000 (IOB: 99.97205)
+Score on test: 98.64000 (IOB: 99.92965)
+Epoch 119 done. Average cost: 0.057864
+
+Process finished with exit code 0

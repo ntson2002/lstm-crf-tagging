@@ -1,0 +1,23 @@
+# Read parameters from command line
+# pre_emb_default = "/home/s1520203/Bitbucket/lstm-crf-tagging/lstm-tagger-v2-dev/data/ner/pre-trained/train.txt.w2vec100"
+# train_default = "/home/s1520203/Bitbucket/lstm-crf-tagging/lstm-tagger-v2-dev/data/ner/dev/train.conll"
+# dev_default = "/home/s1520203/Bitbucket/lstm-crf-tagging/lstm-tagger-v2-dev/data/ner/dev/val.conll"
+# test_default = "/home/s1520203/Bitbucket/lstm-crf-tagging/lstm-tagger-v2-dev/data/ner/test/ner-offcial-test.conll"
+
+# RRE legal dataset
+
+# pre_emb_default = "/home/s1520203/Bitbucket/lstm-crf-tagging/experiments/jp-rre/data/pretrained/rre.w2v50.txt"
+# pre_emb_default = "/home/s1520203/Bitbucket/lstm-crf-tagging/experiments/jp-rre/data/pretrained/rre.w2v50.txt"
+pre_emb_default = ""
+data_folder   = "/home/s1520203/Bitbucket/lstm-crf-tagging/experiments/jp-rre/data/new/new-1layer"
+train_default = data_folder + "/fold.0.train.conll"
+dev_default   = data_folder + "/fold.0.dev.conll"
+test_default  = data_folder + "/fold.0.test.conll"
+default_features = "pos.1.3,chunk.2.3,wh.3.3,if.4.3,s.5.3"
+
+# NER data set
+# pre_emb_default = "/home/s1520203/Bitbucket/lstm-crf-tagging/experiments/en-ner/NERdata-lample/Skip100"
+# data_folder   = "/home/s1520203/Bitbucket/lstm-crf-tagging/experiments/en-ner/NERdata-lample"
+# train_default = data_folder + "/eng.train.conll"
+# dev_default   = data_folder + "/eng.testa.conll"
+# test_default  = data_folder + "/eng.testb.conll"

@@ -1,0 +1,1 @@
+Jim__B-PER bought__O 300__O shares__O of__O Acme__B-ORG Corp.__I-ORG in__O 2006__O .__O Input__O files__O for__O the__O training__O script__O have__O to__O follow__O the__O same__O format__O than__O the__O CoNLL2003__B-MISC sharing__O task__O .__O

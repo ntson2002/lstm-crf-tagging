@@ -1,0 +1,625 @@
+body
+{
+    margin: 0 0 0 0;
+    background-color: #CCCCCC;
+    text-align: center;
+}
+
+#header 
+{
+    height: 60px;
+    background-color: #272822;
+    text-align:left;
+    vertical-align: middle;
+    margin-top: 10px;
+    color: yellow;
+
+}
+
+#topbar 
+{
+    height: 2px;
+    background-color: #365666;
+    word-wrap: break-word;  
+}
+
+#wrapper 
+{
+    margin-top: 10px;
+    width: 1050px;
+
+}
+
+
+
+#smallbar
+{
+    height: 40px;
+    background-color: #84bbf3;
+}
+
+#footer 
+{
+    height: 30px;
+    background-color: #365666;
+    color:black;
+    padding-top: 5px;
+}
+
+#logo
+{
+    min-height: 50px;
+    width: 150px;
+    background: url("images/logo.jpg");
+}
+
+#content
+{
+    min-height: 650px;
+    /* overflow, background -> keep the columns in equal height */
+    /*overflow: hidden;*/
+    background: url("images/css/container-bd.png") repeat-y;
+    /*height: 10px;*/
+    /*    background-color: #9D370F;*/
+    padding: 0px;
+    margin: 0px;
+    background-color: #000;
+}
+
+#primary
+{
+
+    padding-left: 10px;
+    padding-right: 10px;
+    float:left;
+    width: 1030px;
+    min-height: 650px;
+    background-color: #FFFFFF;
+    text-align: left;
+    height: auto;
+
+}          
+
+#secondary
+{
+    min-height: 650px;
+    text-align: left;
+    float: right;
+    width: 250px;
+    height: 100%;
+    background-color: #F7F7F7;
+
+}
+
+h1, h2, h3, input, body
+{
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+h1
+{
+    font-size: 16pt;
+}
+
+h2
+{
+    font-size: 13pt;
+    color: #006;
+}
+h3
+{
+    font-size: 12pt;
+    color: #9D370F;
+}
+
+select, input[type=text]  { 
+    background: transparent url(images/textbox/input-text-8.png) repeat-x; 
+    border: 1px solid #999; 
+    outline:0; 
+    height:30px; 
+    width: 275px; 
+    font-size: 11pt
+} 
+
+.sidebox
+{
+    margin-left: 10px;
+    margin-right: 10px;
+    color: blueviolet;
+}
+
+.sidebox h2{
+    letter-spacing:1px;
+    font-style:normal;
+    background-color:transparent;
+    margin-bottom:15px;
+    font-weight:bold;
+    padding:5px;
+    line-height:18px;
+    color:#FFFFFF;
+    text-transform:none;
+    font-size:14px;
+    font-family:Arial, sans-serif;
+    border:1px solid #1e1e1e;
+    text-shadow:0 -1px #000000;
+    background-image:url('images/css/sidebox1-h2-bg.png');
+    background-repeat:repeat-x;
+    background-position:center top;
+}
+
+.sidebox .vmenu ul{
+    text-align:left;
+    text-decoration:none;
+    margin:7px 0px 8px 0px;
+    list-style:none;
+    border-top:3px solid #cccccc;
+    padding:0;
+}
+
+.sidebox .vmenu ul li{
+    border-bottom:3px solid #cccccc;
+    margin:0;
+    list-style:none;
+    padding:6px 0 6px 5px;
+}
+
+.sidebox .vmenu ul li:hover
+{
+    background-color: #aaaaaa;
+    text-transform:uppercase;
+}
+.sidebox .vmenu ul li a:link, .sidebox1 .vmenu ul li a:visited{
+    letter-spacing:normal;
+    color:#9D370F;
+    font-style:normal;
+    font-size:14px;
+    font-family:Helvetica, Arial, sans-serif;
+    text-decoration:none;
+    font-weight:normal;
+}
+
+.sidebox .vmenu ul li a:hover{
+    color: #990099;
+
+}
+
+.sidebox p{
+    text-align:justify;
+}
+
+.box-table-a
+{
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-size: 12px;
+    width: 100%;
+    text-align: left;
+    border-collapse: collapse;
+}
+.box-table-a th
+{
+    font-size: 13px;
+    font-weight: bold;
+    padding: 8px;
+    background: #fff;
+    border-top: 4px solid #000;
+    border-bottom: 1px solid #000;
+    color: #000;
+}
+.box-table-a td
+{
+    padding: 8px;
+    background: #fff; 
+    border-bottom: 1px solid #000;
+    color: #000;
+    border-top: 1px solid transparent;
+}
+.box-table-a tr:hover td
+{
+    background: #d0dafd;
+    color: #339;
+}
+
+/* PAGING STYLE*/
+.paging
+{
+    margin-top: 5px;
+    text-align: center;
+}
+.paging a  
+{
+    width: 20px;
+    background: #d0dafd;
+    color: #339;
+    border: 1px solid;
+    text-decoration: none;
+    text-align: center;
+    display: inline-block; 
+}
+
+.paging a:hover
+{
+
+    text-decoration: overline;
+    background-color: #ffff00;
+
+}
+.paging span
+{
+    width: 20px;
+    background: #000000;
+    color: #fff;
+    border: 1px solid;
+    text-align: center;
+    display: inline-block; 
+}
+
+
+input[type=submit]{
+
+    box-shadow:inset 0px 1px 0px 0px #dcecfb;
+    background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #bddbfa), color-stop(1, #80b5ea) );
+    background:-moz-linear-gradient( center top, #bddbfa 5%, #80b5ea 100% );
+
+    background-color:#bddbfa;
+
+    text-indent:0;
+    border:1px solid #84bbf3;
+    display:inline-block;
+    color:#990099;
+    font-family:Arial;
+    font-weight:bold;
+    font-style:normal;
+    height:30px;
+    line-height:30px;
+
+    text-decoration:none;
+    text-align:center;
+
+    margin-bottom: 1px;  
+}
+.input[type=submit]:hover {
+    background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #80b5ea), color-stop(1, #bddbfa) );
+    background:-moz-linear-gradient( center top, #80b5ea 5%, #bddbfa 100% );
+    background-color:#80b5ea;
+    top:1px;
+}
+
+input[type=submit]:active {
+    position:relative;
+    top:1px;
+}
+
+.empty-table 
+{
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-size: 14px;
+    text-align: left;
+    border-collapse: collapse;
+}
+
+.empty-table td
+{
+    padding: 8px;
+    background: #e8edff; 
+    border-bottom: 1px solid #fff;
+    color: #669;
+    border-top: 1px solid transparent;
+}
+
+.empty-table th
+{
+    padding: 8px;
+    background: #5D6080; 
+    border-bottom: 1px solid #fff;
+    color: yellow;
+    border-top: 1px solid transparent;
+}
+
+
+
+
+.sentence
+{
+    border: 1px solid;
+    margin: 5px;
+    padding: 5px;
+}
+
+.sbar
+{
+    border: 1px solid yellow;
+    color: green;
+    background-color: #ccc;
+}
+.np:hover
+{
+    border: 2px solid black;   
+}
+.np:nth-child(odd)
+{
+
+    color: #00c;
+    background-color: #ddd;
+}
+
+.np:nth-child(even)
+{
+
+    color: #00c;
+    background-color: #ccc;
+}
+
+.vp
+{
+    border: 1px solid #eee;
+    color: violet;
+    background-color: #eee;
+}
+
+.pp
+{
+    border: 1px solid #aaa;
+    color: green;
+    background-color: #aaa;
+}
+
+.prn
+{
+    border: 1px solid #aaa;
+    color: green;
+    background-color: #aaa;
+}
+
+.simple 
+{
+    border: 1px solid black;
+    color: white;
+    background-color: black;
+}
+
+
+.part
+{
+    margin: 10px;
+    border-top: dotted gray 1px;
+    padding: 5px;      
+}
+
+.part:hover
+{
+    margin: 10px;
+    border: solid gray 1px;
+    padding: 5px;   
+    background-color: #eeeeee;   
+}
+
+.person
+{
+    border: 1px solid #aaa;
+    color: green;
+    background-color: #aaa;
+}
+.label-PERSON
+{
+    border: 1px solid #8b388b;
+    color: blue;
+    background-color: yellow;
+    font-size: 8pt;
+}
+
+.label-SBAR 
+{
+    border: 1px solid #8b388b;
+    color: yellow;
+    background-color: #0000ee;
+    font-size: 8pt;
+}
+.label-NP
+{
+    border: 1px solid #8b388b;
+    color: yellow;
+    background-color: #0000ee;
+    font-size: 8pt;
+}
+.label-VP 
+{
+    border: 1px solid #8b388b;
+    color: yellow;
+    background-color: #0000ee;
+    font-size: 8pt;
+}
+
+.label-PP 
+{
+    border: 1px solid #8b388b;
+    color: yellow;
+    background-color: #0000ee;
+    font-size: 8pt;
+}
+
+.label-PRN
+{
+    border: 1px solid #8b388b;
+    color: yellow;
+    background-color: #0000ee;
+    font-size: 8pt;
+}
+
+
+.section
+{
+    border: 1px solid blue;
+}
+
+#divDetails
+{
+    border: 1px solid black;
+    margin:10px;
+    padding: 5px;
+}
+
+.table 
+{
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-size: 12px;
+    width: 100%;
+    text-align: left;
+    border-collapse: collapse;
+}
+.table th
+{
+    font-size: 13px;
+    font-weight: normal;
+    padding: 8px;
+    background: #1E606E;
+    border-top: 4px solid #aabcfe;
+    border-bottom: 1px solid #fff;
+    color: #fff;
+}
+.table td
+{
+    padding: 8px;
+    background: #e8edff; 
+    border-bottom: 1px solid #fff;
+    color: #669;
+    border-top: 1px solid transparent;
+}
+.table tr:hover td
+{
+    background: #d0dafd;
+    color: #339;
+}
+
+.codestyle
+{
+    width:100%;
+    overflow:auto; 
+    font-family:"Courier New", Courier, monospace; 
+    font-size: 12px;
+}
+
+.box
+{
+    width:98%;
+    border: 1px solid blueviolet;
+    padding: 5px;
+    line-height: 26px
+
+}
+
+.location
+{
+    border: 1px solid #8b388b;
+    color: yellow;
+    background-color: #000000;
+}
+
+.location:after {
+    content: "LOC";
+    font-size: 50%;
+    color: blue;
+    font-style: bold;   
+}
+
+.person
+{
+    border: 1px solid #8b388b;
+    color: #0000ff;
+    background-color: #b3ffb3;
+
+}
+
+.person:after {
+    content: "PER";
+    font-size: 50%;
+    color: blue;
+    font-style: bold;
+}
+
+.organization
+{
+    border: 1px solid #8b388b;
+    color: #4d004d;
+    background-color: #ffffcc;
+
+}
+
+.organization:after {
+    content: "ORG";
+    font-size: 50%;
+    color: blue;
+    font-style: bold;
+}
+
+.time
+{
+    border: 1px solid #8b388b;
+    color: pink;
+    background-color: #0000ee;
+
+}
+
+.time:after {
+    content: "TIME";
+    font-size: 50%;
+    color: yellow;
+    font-style: bold;
+}
+
+
+.country
+{
+    border: 1px solid #8b388b;
+    color: green;
+    background-color: yellow;
+
+}
+
+.country:after {
+    content: "COUNTRY";
+    font-size: 50%;
+    color: green;
+    font-style: bold;
+}
+
+.o
+{
+    color: black;
+    background-color: #ffe6ff;
+    cursor:pointer
+}
+
+.i
+{
+    font-style: italic
+}
+
+.small-icon
+{
+    width: 10px;
+    height: 10px;
+    margin: 0px;
+}
+
+.nerRemove
+{
+    width: 22px;
+    text-align: center;
+    padding: 0px;
+}
+
+#sticky {
+    /*padding: 0.5ex;*/
+    width: 1030px;
+    /*background-color: #333;*/
+    color: #fff;
+    /*border-radius: 0.5ex;*/
+}
+
+#sticky.stick {
+    margin-top: 0 !important;
+    position: fixed;
+    top: 0;
+    z-index: 10000;
+    /*border-radius: 0 0 0.5em 0.5em;*/
+}

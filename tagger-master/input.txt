@@ -1,0 +1,1 @@
+Jim bought 300 shares of Acme Corp. in 2006 . Input files for the training script have to follow the same format than the CoNLL2003 sharing task .
