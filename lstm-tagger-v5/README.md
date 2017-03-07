@@ -1,7 +1,9 @@
 ## lstm-tagger-v5
 Thử sử dụng một số kết hợp khác nhau giữa word-embedding vector và feature-embedding vector 
 
+
 ```python
+# file: model.py
 ttt = None
 for ilayer in range(len(self.feature_maps)):
     f = self.feature_maps[ilayer]
