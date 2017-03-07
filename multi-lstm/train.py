@@ -41,14 +41,6 @@ test_default  = data_folder + "/fold.0.test.conll"
 
 
 
-# NER data set
-# pre_emb_default = "/home/s1520203/Bitbucket/lstm-crf-tagging/experiments/en-ner/NERdata-lample/Skip100"
-# data_folder   = "/home/s1520203/Bitbucket/lstm-crf-tagging/experiments/en-ner/NERdata-lample"
-# train_default = data_folder + "/eng.train.conll"
-# dev_default   = data_folder + "/eng.testa.conll"
-# test_default  = data_folder + "/eng.testb.conll"
-
-
 optparser = optparse.OptionParser()
 optparser.add_option(
     "-T", "--train", default=train_default,
