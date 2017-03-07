@@ -8,14 +8,7 @@ for ilayer in range(len(self.feature_maps)):
     # input_dim += f['dim']
     af_layer = EmbeddingLayer(len(f['id_to_ftag']), f['dim'], name=f['name'] + '_layer')
     f_layers.append(af_layer)
-    temp = af_layer.link(features_ids[ilayer])
-
-    # print "temp", temp
-    # if ttt == None:
-    #     ttt = temp
-    # else:
-    #     ttt = ttt + temp
-    # print "ttt", ttt
+    temp = af_layer.link(features_ids[ilayer])  
     input_dim = input_dim + 100
     inputs.append(temp * word_input)
 ```
