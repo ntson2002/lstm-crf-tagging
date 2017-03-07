@@ -1,0 +1,45 @@
+Qua khỏi <ENAMEX TYPE="LOCATION"> bến_xe Củ_Chi </ENAMEX> , <ENAMEX TYPE="LOCATION"> TP. HCM </ENAMEX> một đoạn , rẽ vào <ENAMEX TYPE="LOCATION"> đường Nguyễn Thị Rành </ENAMEX> và đi thẳng cho đến khi chỉ còn cách khu địa_đạo nổi_tiếng chừng 5 km , một con đường_nhựa nhỏ rẽ phải sẽ đưa chúng_ta đến <ENAMEX TYPE="LOCATION"> Nông_trường bò_sữa An_Phú </ENAMEX> .
+Cách cổng chính nông_trường chừng hơn cây_số là ngã ba <ENAMEX TYPE="LOCATION"> Bò_Cạp </ENAMEX> .
+Ngôi nhà của người nông_dân vừa nuôi heo vừa chế_tạo máy_điện nằm đúng ngay cái ngã ba có cái tên dễ nhớ đó .
+Ý_tưởng ... <ENAMEX TYPE="LOCATION"> Củ_Chi </ENAMEX>
+Ấn_tượng đầu_tiên của tôi về nhà_sáng_chế này là nụ cười chân_chất đúng kiểu <ENAMEX TYPE="PERSON"> Hai Lúa </ENAMEX> .
+Tên anh là <ENAMEX TYPE="PERSON"> Nguyễn Thanh Phong </ENAMEX> , 40 tuổi , dân <ENAMEX TYPE="LOCATION"> Củ_Chi </ENAMEX> chính_cống , trình_độ văn_hoá 9/12 , trước khi làm ra điện từ phân heo thì anh_chàng này đã kinh_qua nghề làm_vườn , nghề thợ hàn , thợ sửa xe_đạp , thợ sửa xe_gắn_máy và tất_nhiên là thợ ... nuôi heo nữa .
+<ENAMEX TYPE="PERSON"> Tuấn Anh </ENAMEX> , một nhân_viên kinh_doanh của <ENAMEX TYPE="ORGANIZATION"> Hãng thức_ăn gia_súc Nupak </ENAMEX> , nói với tôi : “ Cả khu_vực <ENAMEX TYPE="LOCATION"> Đồng_Nai </ENAMEX> - <ENAMEX TYPE="LOCATION"> Bà_Rịa </ENAMEX> với hàng trăm trại heo lớn , trại nào cũng xây hầm biogas và phải xả bớt gas đi vì chỉ sử_dụng cho nấu_ăn thì không thấm vào đâu , thế_mà chưa trại nào có được chiếc máy này ” .
+<ENAMEX TYPE="PERSON"> Phong </ENAMEX> kể : vào thời_điểm năm 2000 , anh đã học cách làm được hầm biogas và dùng hơi gas từ hầm để nấu_nướng .
+Khi đàn heo của trại tăng lên , số gas trong các hầm nhiều đến_nỗi sau khi đã cho cả xóm sử_dụng gas để nấu_nướng mà anh còn phải xả bớt đi mới hết .
+Vừa tiếc lại vừa bị mùi hôi từ số gas xả đi , <ENAMEX TYPE="PERSON"> Phong </ENAMEX> suy_nghĩ mãi về cách tận_dụng hết số gas đó .
+Thời đó , khu_vực <ENAMEX TYPE="LOCATION"> An_Phú </ENAMEX> , <ENAMEX TYPE="LOCATION"> Củ_Chi </ENAMEX> của anh điện cung_cấp không đủ , bữa có bữa không nên <ENAMEX TYPE="PERSON"> Phong </ENAMEX> phải sắm chiếc máy <ENAMEX TYPE="ORGANIZATION"> Kohler </ENAMEX> chạy xăng phát_điện .
+Đó cũng là chiếc máy đầu_tiên <ENAMEX TYPE="PERSON"> Phong </ENAMEX> mày_mò đút ống gas từ hầm phân lên để chạy thử .
+Thành_công đầu_tiên là ... máy chạy được , điện phát ra được nhưng trong vòng ba tháng , tính ra lợi được chừng 300.000 - 400.000 đồng tiền điện thì lại phải tốn đến 500.000 đồng tiền ... sửa máy .
+Cuối năm 2000 , <ENAMEX TYPE="PERSON"> Phong </ENAMEX> mua chiếc máy xe_hơi cũ giá 3 triệu đồng .
+Lúc ấy vợ anh , chị <ENAMEX TYPE="PERSON"> Thảo </ENAMEX> , đã bật khóc khi thấy chồng mình “ tha ” về một cái máy cũ như đồ phế_liệu .
+Còn anh vẫn lao vào chiếc máy hì_hục ngày_đêm .
+Tôi tìm đến nhà anh <ENAMEX TYPE="PERSON"> Bằng </ENAMEX> , một khách_hàng của anh <ENAMEX TYPE="PERSON"> Phong </ENAMEX> ở <ENAMEX TYPE="LOCATION"> ấp Trung_Lân </ENAMEX> , <ENAMEX TYPE="LOCATION"> xã Bà_Điểm </ENAMEX> , <ENAMEX TYPE="LOCATION"> Hóc_Môn </ENAMEX> .
+Đây chính là người được anh <ENAMEX TYPE="PERSON"> Phong </ENAMEX> ráp chiếc máy đem bán đầu_tiên vào cuối năm 2004 .
+Trong số những chiếc máy mà anh <ENAMEX TYPE="PERSON"> Phong </ENAMEX> ráp bán thì chiếc của anh <ENAMEX TYPE="PERSON"> Bằng </ENAMEX> và của anh <ENAMEX TYPE="PERSON"> Phan Minh Phụng </ENAMEX> có số thứ_tự 2 và 3 , nghĩa_là chỉ sau máy ở nhà anh <ENAMEX TYPE="PERSON"> Phong </ENAMEX> .
+Hiện_nay cả hai máy đều có công_suất 10 kW này hoạt_động rất tốt , sử_dụng hết công_suất của hầm biogas , hằng tháng không phải đóng tiền điện .
+“ Riêng ông anh rể của tôi ( anh <ENAMEX TYPE="PERSON"> Phụng </ENAMEX> ) ở <ENAMEX TYPE="LOCATION"> ấp Tiền_Lân </ENAMEX> , <ENAMEX TYPE="LOCATION"> Bà_Điểm </ENAMEX> thì do trại khá lớn với 100 heo nái , lượng gas trong hầm nhiều nên điện phát ra ngoài việc sử_dụng cho chuồng_trại , cho sinh_hoạt gia_đình anh_ấy còn ... bán điện cho gần 10 kiôt ( <ENAMEX TYPE="LOCATION"> đường Phan Văn Hớn </ENAMEX> , <ENAMEX TYPE="LOCATION"> Bà Điểm </ENAMEX> , <ENAMEX TYPE="LOCATION"> Hóc_Môn </ENAMEX> , <ENAMEX TYPE="LOCATION"> TP. HCM </ENAMEX> - ảnh ) cho thuê của mình nữa ” - anh <ENAMEX TYPE="PERSON"> Bằng </ENAMEX> khoe .
+Vượt chướng_ngại_vật
+Nhờ những kiến_thức có được từ hồi ... sửa xe_gắn_máy , anh đã thành_công ở chiếc máy đầu_tiên về việc đưa gas vào buồng đốt nhưng rõ_ràng chướng_ngại_vật đầu_tiên mà anh cần phải vượt qua là làm thế_nào để điều_chỉnh lượng gas đưa vào ?
+Khi câu hỏi này chưa trả_lời được , cả anh và mấy người phụ việc phải toát mồ_hôi hột vì dù máy_nổ đấy , điện phát ra đấy nhưng điện_áp thì trồi_sụt theo việc sử_dụng thiết_bị tải_điện nhiều hay ít .
+Có_khi điện_áp tăng vọt trên 300 V , lại có lúc tụt xuống dưới 160 V !
+Phải mất mấy tháng dò_hỏi những người thợ_máy , thợ_điện , thợ điện_tử ... , <ENAMEX TYPE="PERSON"> Phong </ENAMEX> mới tìm được một bảng mạch điện tự_động điều_khiển lượng gas vào buồng đốt .
+Bài_toán cần giải tuy đơn_giản nhưng không dễ chút nào với anh_chàng nông_dân nuôi heo ở vùng_xa này .
+Những tháng tiếp đó là khoảng thời_gian <ENAMEX TYPE="PERSON"> Phong </ENAMEX> lang_thang hết các chợ ... đồ điện cũ ở <ENAMEX TYPE="LOCATION"> TP. HCM </ENAMEX> và may thay , sau vài lần hư_hỏng thì anh cũng tìm ra được thứ mình cần .
+Chiếc máy bắt_đầu chạy êm , điện_áp luôn ổn_định dù có tăng hay giảm tải , đó là đầu năm 2001 .
+Chướng_ngại_vật thứ hai xuất_hiện sau đó không lâu : do lượng hơi_nước lẫn vào gas khá nhiều nên thỉnh_thoảng máy bị đứng , phải tháo ống gas ra , làm khô bộ_chế_hoà_khí mới tiếp_tục chạy được .
+Anh quyết_định thiết_kế lại đường_ống dẫn khí từ hầm lên theo dạng hình sin .
+Kể từ đó máy_phát_điện chạy bằng gas lấy từ hầm phân heo của anh chạy liên_tục mà gần như không hề có bất_kỳ sự_cố nào .
+“ Thế anh có tính được chiếc máy_phát_điện ấy làm lợi cho mình bao_nhiêu một tháng không ? ” - tôi hỏi .
+Anh <ENAMEX TYPE="PERSON"> Phong </ENAMEX> nói ngay : “ Trước_đây mỗi tháng tiền điện sử_dụng cho trại heo và cả sinh_hoạt trong nhà tổng_cộng chừng 2 triệu .
+Bây_giờ thì hoá_đơn tiền điện mỗi tháng chỉ 300.000 - 400.000 đồng , chủ_yếu là dùng phụ thêm trong những giờ cao_điểm sản_xuất .
+Ngoài_ra , bây_giờ tôi còn sử_dụng thêm một máy xay bắp và trộn thức_ăn cho heo , những thiết_bị nếu dùng điện_lưới thì phải tốn ít nhất 1 triệu đồng mỗi tháng .
+Vậy_là cộng lại mỗi tháng tôi lợi được chừng 2,5 triệu đồng tiền điện ” .
+Đó là một con_số rất hấp_dẫn với người chăn_nuôi .
+Khi tôi hỏi anh có làm thêm nhiều chiếc để bán không thì anh cười : “ Ban_đầu tôi chỉ định làm cho mình dùng thôi , đâu dám bán_buôn gì .
+Sau đó có mấy người bạn cũng nuôi heo đến chơi thấy hay quá nên nhờ làm giúp , dần_dà nhiều người biết nên đến đặt_hàng .
+Thế_là bỗng_dưng thành người cung_cấp máy_phát_điện chạy bằng gas .
+Giá mỗi máy lắp_ráp hoàn_chỉnh và cả bảo_hành là 15 triệu đồng .
+Đến nay tôi đã bán được gần 20 chiếc ở <ENAMEX TYPE="LOCATION"> Bình_Dương </ENAMEX> , <ENAMEX TYPE="LOCATION"> Hóc_Môn </ENAMEX> và cả <ENAMEX TYPE="LOCATION"> Lâm_Đồng </ENAMEX> ” .
+Trong buổi ngồi trò_chuyện với anh <ENAMEX TYPE="PERSON"> Phong </ENAMEX> ở <ENAMEX TYPE="LOCATION"> Củ_Chi </ENAMEX> , rất nhiều lần điện_thoại của anh reo lên mà bên kia đường_dây là khách_hàng hỏi đặt lắp_ráp máy từ <ENAMEX TYPE="LOCATION"> Bình_Dương </ENAMEX> , <ENAMEX TYPE="LOCATION"> Lâm_Đồng </ENAMEX> và có cả một người ở <ENAMEX TYPE="LOCATION"> Đồng_Nai </ENAMEX> xin được làm ... đại_lý .
+Anh cười nói với tôi : “ Đã có gì đâu mà đòi làm đại_lý , bây_giờ cứ ai đặt mua cái nào thì tôi lại chạy đi kiếm máy xe_hơi cũ để làm cái ấy , vốn_liếng chưa có bao_nhiêu với_lại cũng chưa hề làm gì to_lớn nên ngại lắm ! ” .

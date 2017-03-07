@@ -1,0 +1,64 @@
+“ Hùm xám ” <ENAMEX TYPE="PERSON"> Vũ Văn Thân </ENAMEX> , “ phượng_hoàng ” <ENAMEX TYPE="PERSON"> Lê Thành Các </ENAMEX> , “ thiết cước đại_vương ” <ENAMEX TYPE="PERSON"> Trương Kim Hùng </ENAMEX> ...
+Chỉ nghe mấy biệt_hiệu mang hơi_hướm kiếm_hiệp đó là trong người đã khó tránh khỏi cảm_giác rạo_rực .
+Thế_là phải lao đầu đi tìm_hiểu giữa đống báo cũ bám đầy bụi thời_gian , và tìm lại những người đã gần_đất_xa_trời ...
+Sự phá_sản của đại_tá <ENAMEX TYPE="PERSON"> Ducoroy </ENAMEX>
+Theo tài_liệu của <ENAMEX TYPE="ORGANIZATION"> Liên_đoàn Môtô & xe_đạp <ENAMEX TYPE="LOCATION"> VN </ENAMEX> </ENAMEX> , môn đua ngựa sắt bắt_đầu du_nhập dải đất hình chữ S từ cuối thế_kỷ 19 .
+Có hai nhân_vật được xem là có công đặt nền_móng cho môn thể_thao này phát_triển tại <ENAMEX TYPE="LOCATION"> VN </ENAMEX> : ở <ENAMEX TYPE="LOCATION"> Sài_Gòn </ENAMEX> là cụ <ENAMEX TYPE="PERSON"> Trần Văn Chánh </ENAMEX> - một giám_thị ngành tiện trong <ENAMEX TYPE="LOCATION"> nhà_máy Ba_Son </ENAMEX> ( sinh 1884 - mất 1952 ) .
+Còn phía <ENAMEX TYPE="LOCATION"> Bắc </ENAMEX> là cụ <ENAMEX TYPE="PERSON"> Vũ Tư Đường </ENAMEX> ( sinh 1881 - mất 1948 ) , người <ENAMEX TYPE="LOCATION"> làng Cự_Đà </ENAMEX> , <ENAMEX TYPE="LOCATION"> Hà_Tây </ENAMEX> - một nhà tư_sản dân_tộc khét_tiếng thời ấy , được mệnh_danh là “ vua ôtô ” , ngang_ngửa với “ vua tàu_thuỷ ” <ENAMEX TYPE="PERSON"> Bạch Thái Bưởi </ENAMEX> .
+Nhưng xe_đạp chỉ thật_sự phát_triển mạnh_mẽ trong những năm đầu thập_niên 1940 , và người “ có công ” là đại_tá <ENAMEX TYPE="PERSON"> Ducoroy </ENAMEX> .
+Đây là một tay thực_dân cáo_già , rất rành_rẽ về thể_thao và muốn mượn thể_thao để ru_ngủ các tầng_lớp thanh_niên <ENAMEX TYPE="LOCATION"> VN </ENAMEX> , hướng họ đến với thể_thao mà quên đi phong_trào chống thực_dân <ENAMEX TYPE="LOCATION"> Pháp </ENAMEX> .
+Nhưng <ENAMEX TYPE="PERSON"> Ducoroy </ENAMEX> đã thất_bại .
+<ENAMEX TYPE="MISCELLANEOUS"> Người Việt </ENAMEX> vẫn hướng đến thể_thao một_cách nhiệt_thành , nhưng không vì_thế mà quên đi nhiệm_vụ cao_cả của mình .
+Người_ta đến với thể_thao để rèn_luyện sức_khoẻ , và chuyện ấy giúp_ích không ít cho cuộc kháng_chiến chống <ENAMEX TYPE="LOCATION"> Pháp </ENAMEX> .
+Bằng_chứng là chúng_ta đã có những cuarơ giỏi như <ENAMEX TYPE="PERSON"> Vũ Văn Bảy </ENAMEX> , <ENAMEX TYPE="PERSON"> Nguyễn Văn Cộ </ENAMEX> ... rời yên xe đua chuyển sang xe_đạp thồ để phục_vụ chiến_dịch <ENAMEX TYPE="LOCATION"> Điện_Biên </ENAMEX> .
+Hay “ hùm xám ” <ENAMEX TYPE="PERSON"> Vũ Văn Thân </ENAMEX> - cháu nội của “ vua ôtô ” - đã tích_cóp toàn_bộ tiền thưởng có được tại các cuộc đua , lên đến 10.000 đồng <ENAMEX TYPE="LOCATION"> Đông_Dương </ENAMEX> ( rất lớn lúc bấy_giờ ) , cùng gia_sản của ông_cha để lại nhằm mua xe_bọc_thép phục_vụ công_việc tải đạn cho chiến_dịch <ENAMEX TYPE="LOCATION"> Điện_Biên </ENAMEX> .
+Nơi “ phượng_hoàng ” ra_đời
+Phải hơn chục năm sau khi đất_nước hoàn_toàn thống_nhất , ở một cuộc đua xuyên <ENAMEX TYPE="LOCATION"> Việt </ENAMEX> chúng_ta mới dám tính đến việc cho phép các tay_đua đổ <ENAMEX TYPE="LOCATION"> đèo Hải_Vân </ENAMEX> .
+Chúng_tôi chưa được vinh_hạnh thử cảm_giác đổ dốc Đệ nhất hùng quan , nhưng nghe nhiều đồng_nghiệp kể lại thì khiếp lắm , dù chỉ là ngồi trên những chiếc môtô gần cả ngàn phân_khối .
+Còn các tay_đua thì bảo : “ Kinh lắm .
+Gió rít eo_éo bên tai , tốc_độ lên đến 80 - 90 km / giờ , cơ mặt cứ nhảy lưng_tưng vì gió quật .
+Khi ôm cua ở những khúc tay_áo , mồ_hôi lạnh cứ túa ra ” .
+Ấy vậy mà hơn 50 năm trước , ở cuộc đua <ENAMEX TYPE="LOCATION"> Hà_Nội </ENAMEX> - <ENAMEX TYPE="LOCATION"> Sài_Gòn </ENAMEX> - <ENAMEX TYPE="LOCATION"> Phnom_Penh </ENAMEX> ( 15 chặng , dài 2.183 km ) vào năm 1941 - 1942 , các chàng trai <ENAMEX TYPE="LOCATION"> Việt </ENAMEX> ( có cả <ENAMEX TYPE="MISCELLANEOUS"> người Campuchia </ENAMEX> , lính viễn_chinh <ENAMEX TYPE="LOCATION"> Pháp </ENAMEX> cùng tham_gia ) đã đổ <ENAMEX TYPE="LOCATION"> đèo Hải_Vân </ENAMEX> ào_ào !
+Nhưng , độc_đáo nhất , gan_dạ nhất là <ENAMEX TYPE="PERSON"> Lê Thành Các </ENAMEX> - một tay_đua của đất <ENAMEX TYPE="LOCATION"> Sài_Gòn </ENAMEX> , đã không xuống đèo bằng trớn như mọi người , mà_lại còn nhấn bàn_đạp liên_tục !
+Ông <ENAMEX TYPE="PERSON"> Lê Văn Long </ENAMEX> , một lão_tướng hiếm_hoi còn sót lại của thời ấy , nay đã 80 tuổi tròn , kể : “ Ảnh gan ghê lắm .
+Khi đổ đèo vượt qua mặt luôn cả xe Jeep mở_đường khiến mấy tên lính <ENAMEX TYPE="LOCATION"> Pháp </ENAMEX> la hoảng ” .
+Các không phải đua xe nữa mà là bay .
+Hình_ảnh ông trên con ngựa sắt “ bay ” vòng_vèo , chấp_chới qua những khúc cua cùi_chỏ khủng_khiếp trên Đệ nhất hùng quan đã khiến giới báo_chí ngày ấy ví là những cái vỗ cánh của phượng_hoàng !
+( Dù ở cuộc đua ấy <ENAMEX TYPE="PERSON"> Lê Thành Các </ENAMEX> chỉ xếp thứ nhì , sau một đồng_đội là <ENAMEX TYPE="PERSON"> Nguyễn Văn Thêu </ENAMEX> ) .
+Đỉnh_cao của “ phượng_hoàng ” là tại cuộc đua xuyên <ENAMEX TYPE="LOCATION"> Đông_Dương </ENAMEX> lần 1 diễn ra sau đó một năm .
+Tham_dự cuộc đua này có tất_cả 25 đội , rời <ENAMEX TYPE="LOCATION"> Sài_Gòn </ENAMEX> ngày 29-12-1942 và về đích cũng tại <ENAMEX TYPE="LOCATION"> Sài_Gòn </ENAMEX> vào ngày 4-2-1943 .
+Đây là cuộc đua hùng_vĩ nhất trong lịch_sử xe_đạp <ENAMEX TYPE="LOCATION"> VN </ENAMEX> , khi các cuarơ đua tài hơn một tháng trời trên một chặng đường dài gần 3.000 km ( cuộc đua <ENAMEX TYPE="LOCATION"> Đông_Dương </ENAMEX> lần 2 chỉ dài 2.500 km vào năm 1944 ) .
+<ENAMEX TYPE="PERSON"> Lê Thành Các </ENAMEX> đã chiến_thắng ở cuộc đua kỳ_vĩ này , còn người về nhì là “ hùm xám ” <ENAMEX TYPE="PERSON"> Vũ Văn Thân </ENAMEX> .
+Ba tháng sau khi đăng_quang vòng <ENAMEX TYPE="LOCATION"> Đông_Dương </ENAMEX> lần 1 , tại <ENAMEX TYPE="LOCATION"> Hà_Nội </ENAMEX> đã diễn ra một cuộc đua “ chiến_tranh giữa các vì sao ” !
+Chỉ dành cho 15 tay_đua mạnh nhất thời bấy_giờ của <ENAMEX TYPE="LOCATION"> Đông_Dương </ENAMEX> , gồm : <ENAMEX TYPE="PERSON"> Lê Thành Các </ENAMEX> , <ENAMEX TYPE="PERSON"> Nguyễn Thành Phương </ENAMEX> , <ENAMEX TYPE="PERSON"> Lher </ENAMEX> , <ENAMEX TYPE="PERSON"> Nguyễn Văn Ba </ENAMEX> , <ENAMEX TYPE="PERSON"> Vũ Văn Thân </ENAMEX> , <ENAMEX TYPE="PERSON"> Michon </ENAMEX> , <ENAMEX TYPE="PERSON"> Thibaut </ENAMEX> , <ENAMEX TYPE="PERSON"> Vanleng </ENAMEX> , <ENAMEX TYPE="PERSON"> Franchi </ENAMEX> , <ENAMEX TYPE="PERSON"> Huỳnh Ngọc Chánh </ENAMEX> , <ENAMEX TYPE="PERSON"> Rouget </ENAMEX> , <ENAMEX TYPE="PERSON"> Nguyễn Văn Lầu </ENAMEX> , <ENAMEX TYPE="PERSON"> Nguyễn Văn Đượm </ENAMEX> , <ENAMEX TYPE="PERSON"> Nguyễn Văn Sơn </ENAMEX> và <ENAMEX TYPE="PERSON"> Nguyễn Phát Giá </ENAMEX> .
+“ Phượng_hoàng ” lại về nhất ở cuộc đua này và được trao_tặng danh_hiệu “ Chúa_tể xe_đạp <ENAMEX TYPE="LOCATION"> Đông_Dương </ENAMEX> ” .
+“ Thiết cước đại_vương ”
+Hồi mới vào nghề phóng_viên thể_thao ( 1993 ) , tôi được giao phụ_trách theo_dõi môn xe_đạp .
+Tính lại ưa nghe chuyện xưa tích cũ nên tôi rất thích sưu_tầm giai_thoại .
+Hồi đó ông <ENAMEX TYPE="PERSON"> Nguyễn Đông Châu </ENAMEX> - trưởng bộ_môn xe_đạp <ENAMEX TYPE="LOCATION"> TP. HCM </ENAMEX> - có kể cho nghe về sự ra_đời của biệt_hiệu “ thiết cước đại_vương ” mà các nhà_báo <ENAMEX TYPE="PERSON"> Thiệu Võ </ENAMEX> , <ENAMEX TYPE="PERSON"> Huyền Vũ </ENAMEX> ... đã đặt cho <ENAMEX TYPE="PERSON"> Trương Kim Hùng </ENAMEX> .
+Ông <ENAMEX TYPE="PERSON"> Châu </ENAMEX> kể : “ <ENAMEX TYPE="PERSON"> Hùng </ENAMEX> hồi đó đã có tiếng , khi dự SEAP Games đầu_tiên vào năm 1969 đã đoạt ngay 1 HCV , 3 HCB và 1 HCĐ .
+Có người thách_đố anh đạp xe từ <ENAMEX TYPE="LOCATION"> Sài_Gòn </ENAMEX> đi <ENAMEX TYPE="LOCATION"> Cấp </ENAMEX> ( <ENAMEX TYPE="LOCATION"> Vũng_Tàu </ENAMEX> ) một_mình và luôn_luôn phải nhấn bàn_đạp chứ không được ngưng một guồng chân nào .
+<ENAMEX TYPE="PERSON"> Hùng </ENAMEX> nhận_lời và anh đã thắng cuộc , dù khi đến <ENAMEX TYPE="LOCATION"> Vũng_Tàu </ENAMEX> đã ngã vật ra muốn xỉu ” .
+Các bạn nên nhớ một cầu_thủ bóng_đá chơi 90 phút nhưng người_ta chỉ thật_sự chạy trong vòng khoảng 30 - 35 phút .
+Một cuarơ xe_đạp chạy 120 km nhưng không phải lúc nào cũng nhấn bàn_đạp mà phải ngưng guồng chân để nghỉ mệt , chỉ chạy bằng trớn .
+Vì_vậy việc nhấn bàn_đạp liên_tục trong vòng ba giờ đồng_hồ là điều khó thể thực_hiện .
+Biệt_hiệu “ thiết cước đại_vương ” được đặt cho <ENAMEX TYPE="PERSON"> Hùng </ENAMEX> là một điều xứng_đáng .
+Trong làng đua xe_đạp <ENAMEX TYPE="LOCATION"> VN </ENAMEX> , nhà họ <ENAMEX TYPE="PERSON"> Trương </ENAMEX> của <ENAMEX TYPE="PERSON"> Hùng </ENAMEX> có_lẽ cũng không ai hơn nổi <ENAMEX TYPE="PERSON"> Hùng </ENAMEX> .
+Người cha , ông <ENAMEX TYPE="PERSON"> Trương Ty </ENAMEX> , là một tay_đua khá nổi_tiếng , chỉ sau “ phượng_hoàng ” vài năm .
+Đến đời con của ông <ENAMEX TYPE="PERSON"> Tỷ </ENAMEX> , ngoài <ENAMEX TYPE="PERSON"> Hùng </ENAMEX> còn có những <ENAMEX TYPE="PERSON"> Trương Thanh Sĩ </ENAMEX> , <ENAMEX TYPE="PERSON"> Trương Tấn Quang </ENAMEX> ...
+Thú_vị hơn , đến thế_hệ thứ ba , <ENAMEX TYPE="PERSON"> Trương Quốc Thắng </ENAMEX> cũng là một tay_đua xứng_đáng ghi_danh vào lịch_sử thể_thao nước_nhà với chiếc HCV <ENAMEX TYPE="LOCATION"> châu Á </ENAMEX> 2000 .
+Đây là chiếc HCV <ENAMEX TYPE="LOCATION"> châu Á </ENAMEX> thứ hai của xe_đạp thể_thao <ENAMEX TYPE="LOCATION"> VN </ENAMEX> , sau <ENAMEX TYPE="PERSON"> Nguyễn Văn Châu </ENAMEX> đoạt được ở môn nước_rút tại <ENAMEX TYPE="LOCATION"> Tokyo </ENAMEX> 1961 .
+Thắng giống cha ( <ENAMEX TYPE="PERSON"> Trương Kim Hùng </ENAMEX> ) ở chỗ đến với xe_đạp từ rất sớm ( 14 tuổi ) và ngay_lập_tức tạo được tên_tuổi .
+Bên cạnh đó , <ENAMEX TYPE="PERSON"> Thắng </ENAMEX> còn được truyền trong máu mình cái tính_cách mạnh_mẽ , tự_tin , không kiêng_dè trước bất_kỳ đối_thủ nào .
+Những tay_đua khét_tiếng thời “ phượng_hoàng ” <ENAMEX TYPE="PERSON"> Lê Thành Các </ENAMEX> nay chỉ còn mỗi mình lão_tướng <ENAMEX TYPE="PERSON"> Nguyễn Thành Phương </ENAMEX> , nhân_vật một thời được mệnh_danh là “ vua nước_rút ” .
+Sau ngày đất_nước thống_nhất , ông <ENAMEX TYPE="PERSON"> Phương </ENAMEX> từng làm trưởng bộ_môn xe_đạp <ENAMEX TYPE="LOCATION"> TP. HCM </ENAMEX> .
+Ông hiện_nay đã 83 tuổi , sức_khoẻ đã khá yếu và đang sống với con_cháu tại tiệm phở <ENAMEX TYPE="PERSON"> Bình </ENAMEX> trên <ENAMEX TYPE="LOCATION"> đường Lý Chính Thắng </ENAMEX> .
+Tôi nhớ ông <ENAMEX TYPE="PERSON"> Hùng </ENAMEX> ( Việt_kiều <ENAMEX TYPE="LOCATION"> Mỹ </ENAMEX> ) trong lần về nước đầu_tiên để kèm_cặp cho cậu con_trai vừa_mới ra_ràng dự Giải <ENAMEX TYPE="LOCATION"> đồng_bằng sông Cửu_Long </ENAMEX> 1994 , trên chuyến phà qua bắc <ENAMEX TYPE="LOCATION"> Mỹ_Thuận </ENAMEX> , ông lôi <ENAMEX TYPE="PERSON"> Thắng </ENAMEX> ra một góc và bảo : “ Nó hai chân , mình cũng hai chân , việc_gì mà sợ , cứ đeo_bám hết_sức đi ” !
+Năm ấy , cuộc đua này có các tay_đua danh_tiếng của <ENAMEX TYPE="LOCATION"> Thái_Lan </ENAMEX> là <ENAMEX TYPE="PERSON"> Thong Lao </ENAMEX> với <ENAMEX TYPE="PERSON"> Visut </ENAMEX> , những người mà ngay_cả lúc chưa xuất_phát thì các tay_đua <ENAMEX TYPE="LOCATION"> VN </ENAMEX> cũng đã an_phận_thủ_thường chịu nhịn cho họ cái giải nhất !
+Sau đó vài năm , tôi có gặp lại ông <ENAMEX TYPE="PERSON"> Hùng </ENAMEX> trong một cuộc đua cúp truyền_hình .
+Ông vẫn “ máu ” như thời trai_trẻ , đi làm dành_dụm được bao_nhiêu tiền là lo trang_bị xe xịn cho con đi đua .
+Nhưng ông buồn_bã tâm_sự : “ Nhà_nước mình đầu_tư cho thể_thao cũng dữ , hoạt_động phong_trào cũng sôi_nổi , thế_mà không biết làm_sao mãi vẫn chưa tìm lại được cái HCV SEA Games nào .
+Thời bọn tôi , xe thi_đấu là sử_dụng dĩa 53 răng - líp 13 răng .
+Rồi bây_giờ mấy chục năm sau cũng chẳng khác đi ; trong khi các cuarơ nước_ngoài đều chơi dĩa 56 - lip 13 ( đạp nặng hơn nhưng chạy nhanh hơn , cần thể_lực tốt ) .
+Tôi thật_sự không hiểu , không hiểu nổi vì sao tiến quá chậm dù điều_kiện không tệ ? ” .
+Câu hỏi của “ thiết cước đại_vương ” cũng là câu hỏi chung , chưa có lời đáp , của những ai yêu_mến xe_đạp thể_thao ...
