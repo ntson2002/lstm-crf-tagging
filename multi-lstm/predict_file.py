@@ -8,9 +8,10 @@ from loader import prepare_dataset3
 from loader import update_tag_scheme
 from model import Model
 
-default_model = "/home/s1520203/Bitbucket/lstm-crf-tagging/experiments/vn-ner-2layer/run-multi-lstm/models/tag_scheme=iobes,char_dim=25,word_dim=100,word_bidirect=True,pre_emb=train.txt.w2vec100,all_emb=False,crf=True,dropout=0.5,external_features=pos.1.30chunk.2.30,prefix=p30c30"
+# default_model = "/home/s1520203/Bitbucket/lstm-crf-tagging/experiments/vn-ner-2layer/run-multi-lstm/models/tag_scheme=iobes,char_dim=25,word_dim=100,word_bidirect=True,pre_emb=train.txt.w2vec100,all_emb=False,crf=True,dropout=0.5,external_features=pos.1.30chunk.2.30,prefix=p30c30"
+default_model = "/home/s1520203/Bitbucket/lstm-crf-tagging/experiments/vn-ner-2layer/run-multi-lstm/models/vn_p30c30"
 default_test_file = "/home/s1520203/Bitbucket/lstm-crf-tagging/experiments/vn-ner-2layer/data/conll-2layer/testb2_notag.conll"
-default_out_file = "/home/s1520203/Bitbucket/lstm-crf-tagging/experiments/vn-ner-2layer/run-multi-lstm/testb2.conll.txt"
+default_out_file = "/home/s1520203/Bitbucket/lstm-crf-tagging/experiments/vn-ner-2layer/run-multi-lstm/testb2222.conll.txt"
 default_prefix = ""
 
 default_log = False
