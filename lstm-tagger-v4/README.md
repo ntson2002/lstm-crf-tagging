@@ -131,7 +131,7 @@ Predict tags:
 
 Saved models: `vn_p30c30`
 
-``` py
+```sh 
 TESTFILE=input_notag.conll
 OUTFILE=input_predicted_tag.conll
 MODEL=./models/vn_p30c30
