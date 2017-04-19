@@ -34,10 +34,10 @@ optparser.add_option(
     help="Model location"
 )
 
-optparser.add_option(
-    "-a", "--add_o_tag", default=True,
-    help="Add a column O at the end"
-)
+# optparser.add_option(
+#     "-a", "--add_o_tag", default=True,
+#     help="Add a column O at the end"
+# )
 
 opts = optparser.parse_args()[0]
 
