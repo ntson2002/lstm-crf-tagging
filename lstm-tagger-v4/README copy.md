@@ -3,7 +3,13 @@
 
 ## BI-LSTM-CRF with features with 1 layer 
 
+BI-LSTM-CRF Tagger is an implementation of a Named Entity Recognizer that obtains state-of-the-art performance in NER on the 4 CoNLL datasets (English, Spanish, German and Dutch) without resorting to any language-specific knowledge or resources such as gazetteers. Details about the model can be found at: http://arxiv.org/abs/1603.01360
 
+
+
+## Initial setup
+
+To use the tagger, you need Python 2.7, with Numpy and Theano installed.
 
 
 ## Train a model
