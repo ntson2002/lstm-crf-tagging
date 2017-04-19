@@ -144,11 +144,9 @@ Predict a file:
 ``` sh
 
 TESTFILE=testb2_sample_notag.conll  # path of test file 
-PROGRAM=/home/s1520203/Bitbucket/lstm-crf-tagging/multi-lstm # program 
-MODEL=/home/s1520203/Bitbucket/lstm-crf-tagging/experiments/vn-ner-2layer/run-multi-lstm/models/vn_p30c30 # saved model 
+MODEL=./models/vn_p30c30 # saved model 
 OUTPUT=testb2_sample_predicted_tag.conll # path of output 
-
-python $PROGRAM/predict_file.py --test_file $TESTFILE --out_file $OUTPUT --model $MODEL
+python predict_file.py --test_file $TESTFILE --out_file $OUTPUT --model $MODEL
 
 ```
 
