@@ -74,4 +74,116 @@ There are many parameters you can tune (CRF, dropout rate, embedding dimension, 
 
 Program: `predict_file.py`
 
+#### Input file 
 
+The input file has the same format with the training data file. The last columns cotains `O` tags.
+
+Sample file: `input_notag.conll`
+
+```
+ Bí_thư       N      B-NP   O     
+ Đảng_uỷ      N      B-NP   O     
+ phường       N      I-NP   O     
+ Nghi_Hải     NNP    I-NP   O     
+ (            CH     O      O     
+ Cửa_Lò       NNP    B-NP   O     
+ ,            CH     O      O     
+ Nghệ_An      NNP    B-NP   O     
+ )            CH     O      O     
+ Nguyễn       NNP    B-NP   O     
+ Văn          NNP    I-NP   O     
+ Bích         NNP    I-NP   O     
+ đã           R      O      O     
+ quả_quyết    V      B-VP   O     
+ với          E      B-PP   O     
+ chúng_tôi    P      B-NP   O     
+ như_vậy      X      O      O     
+ .            CH     O      O     
+                                  
+ Ông          Ns     B-NP   O     
+ Nguyễn       NNP    B-NP   O     
+ Thanh        NNP    I-NP   O     
+ Hoà          NNP    I-NP   O     
+ ,            CH     O      O     
+ cục_trưởng   N      B-NP   O     
+ Cục          N      B-NP   O     
+ Quản_lý      V      I-NP   O     
+ lao_động     N      I-NP   O     
+ ngoài        N      I-NP   O     
+ nước         N      I-NP   O     
+ (            CH     O      O     
+ Bộ           N      B-NP   O     
+ Lao_động     N      I-NP   O     
+ -            CH     I-NP   O     
+ thương_binh  N      I-NP   O     
+ &            CH     I-NP   O     
+ xã_hội       N      I-NP   O     
+ )            CH     O      O     
+ ,            CH     O      O     
+ cũng         R      O      O     
+ chung        A      B-AP   O     
+ quan_điểm    N      B-NP   O     
+ này          P      B-NP   O     
+ ...          CH     O      O     
+```
+
+Predict tags:
+
+Saved models: `vn_p30c30`
+
+``` py
+TESTFILE=input_notag.conll
+OUTFILE=input_predicted_tag.conll
+MODEL=./models/vn_p30c30
+
+python predict_file.py --test_file $TESTFILE --out_file $OUTFILE --model $MODEL
+```
+
+Output:
+
+```
+ Bí_thư       N    B-NP  O     
+ Đảng_uỷ      N    B-NP  B-ORG 
+ phường       N    I-NP  I-ORG 
+ Nghi_Hải     NNP  I-NP  I-ORG 
+ (            CH   O     O     
+ Cửa_Lò       NNP  B-NP  B-LOC 
+ ,            CH   O     O     
+ Nghệ_An      NNP  B-NP  B-LOC 
+ )            CH   O     O     
+ Nguyễn       NNP  B-NP  B-PER 
+ Văn          NNP  I-NP  I-PER 
+ Bích         NNP  I-NP  I-PER 
+ đã           R    O     O     
+ quả_quyết    V    B-VP  O     
+ với          E    B-PP  O     
+ chúng_tôi    P    B-NP  O     
+ như_vậy      X    O     O     
+ .            CH   O     O     
+                               
+ Ông          Ns   B-NP  O     
+ Nguyễn       NNP  B-NP  B-PER 
+ Thanh        NNP  I-NP  I-PER 
+ Hoà          NNP  I-NP  I-PER 
+ ,            CH   O     O     
+ cục_trưởng   N    B-NP  O     
+ Cục          N    B-NP  B-ORG 
+ Quản_lý      V    I-NP  I-ORG 
+ lao_động     N    I-NP  I-ORG 
+ ngoài        N    I-NP  I-ORG 
+ nước         N    I-NP  I-ORG 
+ (            CH   O     O     
+ Bộ           N    B-NP  B-ORG 
+ Lao_động     N    I-NP  I-ORG 
+ -            CH   I-NP  I-ORG 
+ thương_binh  N    I-NP  I-ORG 
+ &            CH   I-NP  I-ORG 
+ xã_hội       N    I-NP  I-ORG 
+ )            CH   O     O     
+ ,            CH   O     O     
+ cũng         R    O     O     
+ chung        A    B-AP  O     
+ quan_điểm    N    B-NP  O     
+ này          P    B-NP  O     
+ ...          CH   O     O     
+```

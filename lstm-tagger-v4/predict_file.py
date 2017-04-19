@@ -9,9 +9,14 @@ from loader import prepare_dataset2
 from loader import update_tag_scheme
 from model import Model
 
-default_model = "/home/s1520203/Bitbucket/lstm-crf-tagging/experiments/jp-rre/jpc-new-v1/01jpc-emb-crf-d100/06emb-crf-f12345-lr002/layer0/models/prefix=0"
-default_test_file = "/home/s1520203/Bitbucket/lstm-crf-tagging/experiments/jp-rre/data/new/test-1layer/fold.0.test.conll"
-default_out_file = "/home/s1520203/Bitbucket/lstm-crf-tagging/experiments/jp-rre/jpc-new-v1/01jpc-emb-crf-d100/06emb-crf-f12345-lr002/layer0/fold.0.test.conll.txt"
+# default_model = "/home/s1520203/Bitbucket/lstm-crf-tagging/experiments/jp-rre/jpc-new-v1/01jpc-emb-crf-d100/06emb-crf-f12345-lr002/layer0/models/prefix=0"
+# default_test_file = "/home/s1520203/Bitbucket/lstm-crf-tagging/experiments/jp-rre/data/new/test-1layer/fold.0.test.conll"
+# default_out_file = "/home/s1520203/Bitbucket/lstm-crf-tagging/experiments/jp-rre/jpc-new-v1/01jpc-emb-crf-d100/06emb-crf-f12345-lr002/layer0/fold.0.test.conll.txt"
+
+default_model = "/home/s1520203/Bitbucket/lstm-crf-tagging/lstm-tagger-v4/models/vn_p30c30_layer1"
+default_test_file = "/home/s1520203/Bitbucket/lstm-crf-tagging/lstm-tagger-v4/data/testb1_sample_notag.conll"
+default_out_file = "/home/s1520203/Bitbucket/lstm-crf-tagging/lstm-tagger-v4/data/testb1_sample_predicted_tag.conll"
+
 default_prefix = ""
 
 default_log = False
@@ -35,7 +40,7 @@ optparser.add_option(
 )
 
 optparser.add_option(
-    "-a", "--add_o_tag", default=True,
+    "-a", "--add_o_tag", default=False,
     help="Add a column O at the end"
 )
 
