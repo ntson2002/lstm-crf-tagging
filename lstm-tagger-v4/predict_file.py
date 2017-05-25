@@ -67,9 +67,12 @@ word_to_id, char_to_id, tag_to_id = [
     for x in [model.id_to_word, model.id_to_char, model.id_to_tag]
 ]
 
+print  model.id_to_tag
 print 'Reloading previous model...'
 _, f_eval = model.build(training=False, **parameters)
 model.reload()
+print "Parameters: \n  *", "\n  * ".join([str(k) + " = " + str(v) for k, v in model.parameters.items()])
+# print "Parameters: \n", model.parameters
 
 test_file = opts.test_file
 out_file = opts.out_file
@@ -86,3 +89,4 @@ print "output: ", out_file
 
 predict(parameters, f_eval, test_sentences, test_data, model.id_to_tag, out_file, add_O_tags=opts.add_o_tag)
 
+print "finish !!!"

@@ -84,6 +84,7 @@ def tag_mapping(sentences):
     """
     Create a dictionary and a mapping of tags, sorted by frequency.
     """
+
     tags = [[word[-1] for word in s] for s in sentences]
     dico = create_dico(tags)
     tag_to_id, id_to_tag = create_mapping(dico)
@@ -180,9 +181,21 @@ def prepare_dataset2(sentences, word_to_id, char_to_id, tag_to_id, feature_maps,
 
         for fm in feature_maps:
             # ftag_to_id = [fm['ftag_to_id'][w[fm['column']]] for w in s ]
+            # for w in s:
+            #     print "\t".join(w)
+
             ftag_to_id = [
                 fm['ftag_to_id'][w[fm['column']]] if w[fm['column']] in fm['ftag_to_id'] else fm['ftag_to_id']['<UNK>']
                 for w in s]
+            # ftag_to_id = []
+            # for w in s:
+            #     print len(w), fm['column']
+            #     if w[fm['column']] in fm['ftag_to_id']:
+            #         ftag_to_id.append(fm['ftag_to_id'][w[fm['column']]])
+            #     else:
+            #         ftag_to_id.append(fm['ftag_to_id']['<UNK>'])
+
+
             data_object[fm['name']] = ftag_to_id
         data.append(data_object)
     return data

@@ -48,6 +48,7 @@ class Model(object):
             # Load the parameters and the mappings from disk
             with open(self.parameters_path, 'rb') as f:
                 self.parameters = cPickle.load(f)
+
             self.reload_mappings()
         self.components = {}
 

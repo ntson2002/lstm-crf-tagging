@@ -93,6 +93,7 @@ Input file `testb2_sample_notag.conll`: The same format with the training data f
 ```
  col_0        col_1  col_2  col_3  col_4 
 -----------------------------------------
+
  Bí_thư       N      B-NP   O      O     
  Đảng_uỷ      N      B-NP   O      O     
  phường       N      I-NP   O      O     

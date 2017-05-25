@@ -197,7 +197,7 @@ if not os.path.exists(models_path):
 # Initialize model
 model = Model(parameters=parameters, models_path=models_path)
 print "Model location: %s" % model.model_path
-
+print "Parameters:", parameters
 # Data parameters
 lower = parameters['lower']
 zeros = parameters['zeros']
@@ -207,6 +207,12 @@ tag_scheme = parameters['tag_scheme']
 train_sentences = loader.load_sentences(opts.train, lower, zeros)
 dev_sentences = loader.load_sentences(opts.dev, lower, zeros)
 test_sentences = loader.load_sentences(opts.test, lower, zeros)
+print "=====SAMPLE DATA====="
+from pprint import pprint
+# pprint(test_sentences)
+for tokens in train_sentences[0]:
+    print "\t".join(tokens)
+print "====================="
 
 # Use selected tagging scheme (IOB / IOBES)
 update_tag_scheme(train_sentences, tag_scheme)
@@ -264,10 +270,6 @@ train_data = prepare_dataset2(
     train_sentences, word_to_id, char_to_id, tag_to_id, feature_maps, lower
 )
 
-print "--------"
-from pprint import pprint
-pprint (train_data[0])
-print "--------"
 dev_data = prepare_dataset2(
     dev_sentences, word_to_id, char_to_id, tag_to_id, feature_maps, lower
 )

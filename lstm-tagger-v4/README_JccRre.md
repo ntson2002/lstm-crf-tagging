@@ -115,3 +115,7 @@ exist	VB	E-VP	O	E-IF	O	VP/S/VP/S/SBAR/NP/PP/ADJP/NP/PP/VP/S/	I-R	O	O
 
 ### Vietnamse NER corpus
 
+with open("parameters.pkl", "rb") as f:
+    import cPickle
+    data = cPickle.load(f)
+    print data

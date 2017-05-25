@@ -384,18 +384,48 @@ def predict(parameters, f_eval, raw_sentences, parsed_sentences,
                 new_line = "\t".join(raw_sentence[i][:-1] + [p_tags[i], "O"])
             else:
                 new_line = "\t".join(raw_sentence[i][:-1] + [p_tags[i]])
+
+
             predictions.append(new_line)
             count[y_real, y_pred] += 1        
 
         predictions.append("")
 
     # Write predictions to disk and run CoNLL script externally
-    with codecs.open(output, 'w', 'utf8') as f:
-        f.write("\n".join(predictions))    
+    if output != None:
+        with codecs.open(output, 'w', 'utf8') as f:
+            f.write("\n".join(predictions))
+    else:
+        return "\n".join(predictions)
 
+def predict2(parameters, f_eval, raw_sentences, parsed_sentences,
+            id_to_tag):
+
+    """
+    predict tag --> results is an arrays
+    """
+    predictions = []
+    for raw_sentence, data in zip(raw_sentences, parsed_sentences):
+        sentence = []
+        input = create_input2(data, parameters, False)
+        if parameters['crf']:
+            y_preds = np.array(f_eval(*input))[1:-1]
+        else:
+            y_preds = f_eval(*input).argmax(axis=1)
+        p_tags = [id_to_tag[y_pred] for y_pred in y_preds]
+        if parameters['tag_scheme'] == 'iobes':
+            p_tags = iobes_iob(p_tags)
+        for i in range(len(y_preds)):
+            sentence.append(raw_sentence[i][:-1] + [p_tags[i]])
+        predictions.append(sentence)
+    return predictions
 
 def call_conlleval(output_path, scores_path):
     os.system("%s < %s > %s" % (eval_script, output_path, scores_path))
     eval_lines = [l.rstrip() for l in codecs.open(scores_path, 'r', 'utf8')]
 
     return eval_lines
+
+
+# if __name__ == '__main__':
+#     print iob_iobes(["B-S2", "I-S2", "O"])
