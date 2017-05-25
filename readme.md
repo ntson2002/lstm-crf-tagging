@@ -1,6 +1,6 @@
 # Nested named entity recognition using multilayer recurrent neural networks
 
-This model is reported in the paper: Nguyen Truong Son, Nguyen Le Minh, "Nested named entity recognition using multilayer recurrent neural networks", PACLING 2017, August 16 - 18, 2017, Sedona Hotel, Yangon, Myanmar (to be appear)
+This model is reported in the paper: Nguyen Truong Son, Nguyen Le Minh, "*Nested named entity recognition using multilayer recurrent neural networks*", PACLING 2017, August 16 - 18, 2017, Sedona Hotel, Yangon, Myanmar (to be appear)
 
 Requirements:
 
