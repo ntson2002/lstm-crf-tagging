@@ -132,11 +132,8 @@ Predict tags:
 Saved models: `vn_p30c30`
 
 ```sh 
-TESTFILE=input_notag.conll
-OUTFILE=input_predicted_tag.conll
-MODEL=./models/vn_p30c30
 
-python predict_file.py --test_file $TESTFILE --out_file $OUTFILE --model $MODEL
+python predict_file.py --test_file ./models/sample_data/sample_notag.conll --out_file sample.conll --model ./models/vn_p30c30
 ```
 
 Output:
