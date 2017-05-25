@@ -1,5 +1,7 @@
 # Nested named entity recognition using multilayer recurrent networks
 
+This model is reported in the paper: Nguyen Truong Son, Nguyen Le Minh, "Nested named entity recognition using multilayer recurrent neural networks", PACLING 2017, August 16 - 18, 2017, Sedona Hotel, Yangon, Myanmar
+
 Requirements:
 
 *  Python 2.7, with Numpy and Theano installed.
@@ -13,3 +15,4 @@ Two implemented models:
 
 
 Our proposed models are based on [Lample et al 2016](https://arxiv.org/abs/1603.01360). But the orginal model does not focus to additional features as well as it can only recognize named entities at 1 layer.
+
