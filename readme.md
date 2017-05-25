@@ -9,10 +9,9 @@ Requirements:
 
 Two implemented models:
 
-* [lstm-tagger-v4](https://github.com/ntson2002/lstm-crf-tagging/tree/master/lstm-tagger-v4): Implementation of single BI-LSTM-CRF with additional features.  
+* [lstm-tagger-v4](https://github.com/ntson2002/lstm-crf-tagging/tree/master/lstm-tagger-v4): Implementation of single BI-LSTM-CRF with additional features to recognize named entites at the top level.  
 
-* [multi-lstm](https://github.com/ntson2002/lstm-crf-tagging/tree/master/multi-lstm): Implementation of Multilayer BI-LSTM-CRF model 
+* [multi-lstm](https://github.com/ntson2002/lstm-crf-tagging/tree/master/multi-lstm): Implementation of Multilayer BI-LSTM-CRF model to recognize nested named entities.
 
 
-Our proposed models are based on [Lample et al 2016](https://arxiv.org/abs/1603.01360). But the orginal model does not focus to additional features as well as it can only recognize named entities at 1 layer.
-
+Our proposed models are based on [Lample et al 2016](https://arxiv.org/abs/1603.01360). But the orginal model does not focus to additional features as well as recognizing nested named entities.
