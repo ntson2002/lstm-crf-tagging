@@ -185,3 +185,16 @@ Output:
  ...          CH   O     O     
 ```
 
+# Evaluation results on the official test set VLSP 2016
+
+
+| Model | POS | CHUNK | Pre-trained | F1 %  |                           |
+|-------|-----|-------|-------------|-------|---------------------------|
+| 1     |     |       |             | 82.9  | baseline1 (Lample et. al) |
+| 2     | X   |       |             | 86.44 | +3.54%                    |
+| 3     |     | X     |             | 89.77 | +6.87%                    |
+| 4     | X   | X     |             | 90.27 | +7.37%                    |
+| 5     |     |       | X           | 86.84 | baseline2 (Lample et. al) |
+| 6     | X   |       | X           | 88.66 | +1.82%                    |
+| 7     |     | X     | X           | 91.79 | +4.95%                    |
+| 8     | X   | X     | X           | 92.97 | +6.13%                    |
