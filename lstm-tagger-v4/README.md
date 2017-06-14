@@ -186,7 +186,8 @@ Output:
 ```
 
 # Evaluation results on the official test set VLSP 2016
-
+* VLSP 2016: <http://vlsp.org.vn/evaluation_campaign_NER>
+* Results on the official test set 
 
 | Model | POS | CHUNK | Pre-trained | F1 %  |                           |
 |-------|-----|-------|-------------|-------|---------------------------|
